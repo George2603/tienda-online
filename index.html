@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simulador tienda de ropa</title>
+    <title>Tienda de ropa online</title>
   </head>
   <body>
     <h1>Tienda de ropa online</h1>
@@ -11,6 +11,22 @@
       Bienvenido a nuestro sitio de venta online, donde podras adquirir nuestros
       productos y accesorios de primera calidad
     </p>
+
+    <p>Seleccioná un producto y agregalo al carrito</p>
+
+    <select id="productoSelect"></select>
+
+    <input type="number" id="cantidadInput" placeholder="Cantidad" min="1" />
+
+    <br /><br />
+
+    <button id="agregarBtn">Agregar al carrito</button>
+    <button id="vaciarBtn">Vaciar carrito</button>
+
+    <h2>carrito</h2>
+    <ul id="carritoLista"></ul>
+
+    <h3 id="total"></h3>
 
     <script src="main.js"></script>
   </body>
